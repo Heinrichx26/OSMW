@@ -1,0 +1,68 @@
+{
+  "predictor_bootstrap": [
+    {
+      "subset": "all",
+      "predictor": "global_operator_sre",
+      "pairs": 900,
+      "r2": 0.23980919188194671,
+      "bootstrap_low": 0.19864054438556294,
+      "bootstrap_high": 0.28330173685993015
+    },
+    {
+      "subset": "all",
+      "predictor": "task_entropy",
+      "pairs": 900,
+      "r2": 0.8812445200786484,
+      "bootstrap_low": 0.861245284877041,
+      "bootstrap_high": 0.8966528234079283
+    },
+    {
+      "subset": "n12_density_0.20",
+      "predictor": "global_operator_sre",
+      "pairs": 100,
+      "r2": 0.10117334793338839,
+      "bootstrap_low": 0.017270705147576566,
+      "bootstrap_high": 0.2231902597515183
+    },
+    {
+      "subset": "n12_density_0.20",
+      "predictor": "task_entropy",
+      "pairs": 100,
+      "r2": 0.8967468608915494,
+      "bootstrap_low": 0.840263273786452,
+      "bootstrap_high": 0.9308996443529435
+    }
+  ],
+  "fixed_error_hierarchy": [
+    {
+      "dataset": "floquet",
+      "ordering": "Z<X/Y<H",
+      "median_ratios": [
+        0.01872944066018731,
+        0.07804383843811571,
+        0.1102314234203974
+      ],
+      "monotone": true
+    },
+    {
+      "dataset": "mqt_core",
+      "ordering": "Z<X/Y<H",
+      "median_ratios": [
+        0.22076215505913274,
+        0.6681222707423581,
+        0.8617176128093158
+      ],
+      "monotone": true
+    },
+    {
+      "dataset": "random",
+      "ordering": "Z<X/Y<H",
+      "median_ratios": [
+        0.1276013335672925,
+        0.20973730989531897,
+        0.27422451711608337
+      ],
+      "monotone": true
+    }
+  ]
+}

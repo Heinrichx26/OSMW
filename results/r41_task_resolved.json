@@ -1,0 +1,249 @@
+{
+  "rows": [
+    {
+      "family": "T_tensor",
+      "n_qubits": 1,
+      "task": "all_paulis",
+      "omega_size": 4,
+      "task_p2": 0.2876820724517809,
+      "operator_magic": 0.28768207245177946,
+      "global_pauli_p2": 0.2876820724517809,
+      "analytic": "1 log(4/3)"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 1,
+      "task": "z_sector",
+      "omega_size": 2,
+      "task_p2": 0.0,
+      "operator_magic": 0.28768207245177946,
+      "global_pauli_p2": 0.2876820724517809,
+      "analytic": "0"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 1,
+      "task": "xy_all_sector",
+      "omega_size": 2,
+      "task_p2": 0.6931471805599451,
+      "operator_magic": 0.28768207245177946,
+      "global_pauli_p2": 0.2876820724517809,
+      "analytic": "1 log 2"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 1,
+      "task": "xy_one_site_sector",
+      "omega_size": 2,
+      "task_p2": 0.6931471805599451,
+      "operator_magic": 0.28768207245177946,
+      "global_pauli_p2": 0.2876820724517809,
+      "analytic": "log 2"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 2,
+      "task": "all_paulis",
+      "omega_size": 16,
+      "task_p2": 0.575364144903561,
+      "operator_magic": 0.5753641449035617,
+      "global_pauli_p2": 0.575364144903561,
+      "analytic": "2 log(4/3)"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 2,
+      "task": "z_sector",
+      "omega_size": 4,
+      "task_p2": 0.0,
+      "operator_magic": 0.5753641449035617,
+      "global_pauli_p2": 0.575364144903561,
+      "analytic": "0"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 2,
+      "task": "xy_all_sector",
+      "omega_size": 4,
+      "task_p2": 1.3862943611198897,
+      "operator_magic": 0.5753641449035617,
+      "global_pauli_p2": 0.575364144903561,
+      "analytic": "2 log 2"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 2,
+      "task": "xy_one_site_sector",
+      "omega_size": 2,
+      "task_p2": 0.6931471805599444,
+      "operator_magic": 0.5753641449035617,
+      "global_pauli_p2": 0.575364144903561,
+      "analytic": "log 2"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 3,
+      "task": "all_paulis",
+      "omega_size": 64,
+      "task_p2": 0.8630462173553415,
+      "operator_magic": 0.8630462173553428,
+      "global_pauli_p2": 0.8630462173553415,
+      "analytic": "3 log(4/3)"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 3,
+      "task": "z_sector",
+      "omega_size": 8,
+      "task_p2": 0.0,
+      "operator_magic": 0.8630462173553428,
+      "global_pauli_p2": 0.8630462173553415,
+      "analytic": "0"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 3,
+      "task": "xy_all_sector",
+      "omega_size": 8,
+      "task_p2": 2.079441541679835,
+      "operator_magic": 0.8630462173553428,
+      "global_pauli_p2": 0.8630462173553415,
+      "analytic": "3 log 2"
+    },
+    {
+      "family": "T_tensor",
+      "n_qubits": 3,
+      "task": "xy_one_site_sector",
+      "omega_size": 2,
+      "task_p2": 0.6931471805599444,
+      "operator_magic": 0.8630462173553428,
+      "global_pauli_p2": 0.8630462173553415,
+      "analytic": "log 2"
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "all_paulis",
+      "omega_size": 64,
+      "task_p2": 1.1507282898071256,
+      "operator_magic": 1.1507282898071254,
+      "global_pauli_p2": 1.1507282898071254,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "local_observables",
+      "omega_size": 9,
+      "task_p2": 1.2562412328716948,
+      "operator_magic": 1.1507282898071254,
+      "global_pauli_p2": 1.1507282898071254,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "z_sector",
+      "omega_size": 8,
+      "task_p2": 0.9400072584914728,
+      "operator_magic": 1.1507282898071254,
+      "global_pauli_p2": 1.1507282898071254,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "all_paulis",
+      "omega_size": 64,
+      "task_p2": 1.3555227024531409,
+      "operator_magic": 1.355522702453137,
+      "global_pauli_p2": 1.3555227024531409,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "local_observables",
+      "omega_size": 9,
+      "task_p2": 1.2809338454620678,
+      "operator_magic": 1.355522702453137,
+      "global_pauli_p2": 1.3555227024531409,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "z_sector",
+      "omega_size": 8,
+      "task_p2": 0.7576857016975201,
+      "operator_magic": 1.355522702453137,
+      "global_pauli_p2": 1.3555227024531409,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "all_paulis",
+      "omega_size": 64,
+      "task_p2": 0.5753641449035681,
+      "operator_magic": 0.575364144903563,
+      "global_pauli_p2": 0.5753641449035681,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "local_observables",
+      "omega_size": 9,
+      "task_p2": 0.40546510810817077,
+      "operator_magic": 0.575364144903563,
+      "global_pauli_p2": 0.5753641449035681,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "z_sector",
+      "omega_size": 8,
+      "task_p2": 0.5753641449035681,
+      "operator_magic": 0.575364144903563,
+      "global_pauli_p2": 0.5753641449035681,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "all_paulis",
+      "omega_size": 64,
+      "task_p2": 0.8630462173553463,
+      "operator_magic": 0.8630462173553433,
+      "global_pauli_p2": 0.8630462173553464,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "local_observables",
+      "omega_size": 9,
+      "task_p2": 0.7801585575495783,
+      "operator_magic": 0.8630462173553433,
+      "global_pauli_p2": 0.8630462173553464,
+      "analytic": ""
+    },
+    {
+      "family": "random_clifford_t",
+      "n_qubits": 3,
+      "task": "z_sector",
+      "omega_size": 8,
+      "task_p2": 0.2876820724517842,
+      "operator_magic": 0.8630462173553433,
+      "global_pauli_p2": 0.8630462173553464,
+      "analytic": ""
+    }
+  ],
+  "notes": {
+    "z_sector": "Pauli strings with only I/Z factors",
+    "xy_all_sector": "Pauli strings with only X/Y factors on every site",
+    "xy_one_site_sector": "Pauli strings with X/Y on one chosen site and I elsewhere"
+  }
+}

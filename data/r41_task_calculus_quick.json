@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "quick": true,
+  "num_rows": 4,
+  "max_abs_error": 0.0,
+  "min_slack": 1.0
+}

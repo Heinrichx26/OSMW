@@ -1,0 +1,56 @@
+{
+  "case": "fixed_depth_dressed_T_large_n_quick_validation",
+  "checks": [
+    {
+      "case": "n8_local_z_below_all",
+      "observed_ratio": 0.0002543131510416665,
+      "passed": true
+    },
+    {
+      "case": "n8_local_transverse_below_all",
+      "observed_ratio": 0.0015597873263888886,
+      "passed": true
+    },
+    {
+      "case": "n8_hamiltonian_terms_below_all",
+      "observed_ratio": 0.0023227267795138864,
+      "passed": true
+    },
+    {
+      "case": "n8_all_pauli_matches_operator_sre",
+      "observed": 2.3014565796142468,
+      "expected": 2.3014565796142468,
+      "abs_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "n12_local_z_below_all",
+      "observed_ratio": 1.4570024278428833e-06,
+      "passed": true
+    },
+    {
+      "case": "n12_local_transverse_below_all",
+      "observed_ratio": 9.867880079481338e-06,
+      "passed": true
+    },
+    {
+      "case": "n12_hamiltonian_terms_below_all",
+      "observed_ratio": 1.8344985114203545e-05,
+      "passed": true
+    },
+    {
+      "case": "n12_all_pauli_matches_operator_sre",
+      "observed": 3.4521848694213704,
+      "expected": 3.4521848694213704,
+      "abs_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "local_z_ratio_decreases",
+      "observed": 1.4570024278428833e-06,
+      "reference": 0.0002543131510416665,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,42 @@
+{
+  "high_path_low_magic": {
+    "label": "simple_clifford_n3_L3",
+    "source": "constructed",
+    "n_qubits": 3,
+    "depth": 3,
+    "circuit": "H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2",
+    "median_c2": 10.39720770839918,
+    "median_cancellation": 31.78990419928822,
+    "operator_magic": 0.0
+  },
+  "low_path_high_magic": {
+    "label": "T_layer_n3",
+    "source": "constructed",
+    "n_qubits": 3,
+    "depth": 1,
+    "circuit": "T0 T1 T2",
+    "median_c2": 0.0,
+    "median_cancellation": 0.0,
+    "operator_magic": 0.8630462173553428
+  },
+  "max_path": {
+    "label": "simple_clifford_n3_L3",
+    "source": "constructed",
+    "n_qubits": 3,
+    "depth": 3,
+    "circuit": "H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2 H0 H1 H2 S0 S1 S2",
+    "median_c2": 10.39720770839918,
+    "median_cancellation": 31.78990419928822,
+    "operator_magic": 0.0
+  },
+  "max_magic": {
+    "label": "T_layer_n3",
+    "source": "constructed",
+    "n_qubits": 3,
+    "depth": 1,
+    "circuit": "T0 T1 T2",
+    "median_c2": 0.0,
+    "median_cancellation": 0.0,
+    "operator_magic": 0.8630462173553428
+  }
+}

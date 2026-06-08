@@ -1,0 +1,56 @@
+{
+  "case": "fixed_error_observable_estimation_workload_benchmark",
+  "retained_support": {
+    "pairs": 720,
+    "global_r2": 0.22925357628353682,
+    "t_count_r2": 0.21118588345967315,
+    "active_t_count_r2": 0.8361672474982768,
+    "task_p2_r2": 0.8958138537407093,
+    "task_p2_pearson": 0.9464744337491158
+  },
+  "collision_estimator": {
+    "rows": 40,
+    "median_rmse_ratio": 1.0066771181141783,
+    "max_rmse_ratio": 1.209815003936552,
+    "local_window_max_rmse_ratio": 1.1470883840847155
+  },
+  "response_truncation": {
+    "rows": 10,
+    "median_relative_rms_error": 0.003024940911140912,
+    "max_relative_rms_error": 0.1583053255326505,
+    "median_retained_terms": 4.0
+  },
+  "local_endpoint_extremes": {
+    "one_dimensional_selected_all": 1.2049262164744102e-53,
+    "one_dimensional_k90_per_window": 739.9021739130435,
+    "two_dimensional_selected_all": 5.479597307945954e-18,
+    "two_dimensional_k90_per_plaquette": 931.56
+  },
+  "checks": [
+    {
+      "case": "conditioned_predictor_exceeds_global_predictor",
+      "observed": 0.8958138537407093,
+      "reference": 0.22925357628353682,
+      "passed": true
+    },
+    {
+      "case": "collision_estimator_collapse",
+      "observed": 1.0066771181141783,
+      "threshold": 1.2,
+      "passed": true
+    },
+    {
+      "case": "one_dimensional_extreme_gap",
+      "observed": 1.2049262164744102e-53,
+      "threshold": 1e-50,
+      "passed": true
+    },
+    {
+      "case": "two_dimensional_extreme_gap",
+      "observed": 5.479597307945954e-18,
+      "threshold": 1e-15,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,412 @@
+{
+  "simple_clifford": {
+    "family": "simple_clifford",
+    "by_n": {
+      "1": {
+        "rows": [
+          {
+            "depth": 1,
+            "hadamards": 2,
+            "paths_per_input": 4,
+            "median_c2": 0.6931471805599453,
+            "mean_c2": 0.6931471805599453,
+            "max_c2": 0.6931471805599453,
+            "median_log2_paths": 1.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 2,
+            "hadamards": 4,
+            "paths_per_input": 16,
+            "median_c2": 2.0794415416798357,
+            "mean_c2": 2.0794415416798357,
+            "max_c2": 2.0794415416798357,
+            "median_log2_paths": 3.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 3,
+            "hadamards": 6,
+            "paths_per_input": 64,
+            "median_c2": 3.4657359027997265,
+            "mean_c2": 3.4657359027997265,
+            "max_c2": 3.4657359027997265,
+            "median_log2_paths": 5.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 4,
+            "hadamards": 8,
+            "paths_per_input": 256,
+            "median_c2": 4.852030263919617,
+            "mean_c2": 4.852030263919617,
+            "max_c2": 4.852030263919617,
+            "median_log2_paths": 7.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 5,
+            "hadamards": 10,
+            "paths_per_input": 1024,
+            "median_c2": 6.238324625039508,
+            "mean_c2": 6.238324625039508,
+            "max_c2": 6.238324625039508,
+            "median_log2_paths": 9.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 6,
+            "hadamards": 12,
+            "paths_per_input": 4096,
+            "median_c2": 7.6246189861593985,
+            "mean_c2": 7.6246189861593985,
+            "max_c2": 7.6246189861593985,
+            "median_log2_paths": 11.0,
+            "num_boundaries": 4
+          }
+        ],
+        "median_c2_fit": {
+          "slope": 1.3862943611198906,
+          "intercept": -0.6931471805599415,
+          "r2": 1.0
+        },
+        "operator_magic_probe": 0.0
+      },
+      "2": {
+        "rows": [
+          {
+            "depth": 1,
+            "hadamards": 4,
+            "paths_per_input": 16,
+            "median_c2": 1.3862943611198906,
+            "mean_c2": 1.3862943611198906,
+            "max_c2": 1.3862943611198906,
+            "median_log2_paths": 2.0,
+            "num_boundaries": 16
+          },
+          {
+            "depth": 2,
+            "hadamards": 8,
+            "paths_per_input": 256,
+            "median_c2": 4.1588830833596715,
+            "mean_c2": 4.1588830833596715,
+            "max_c2": 4.1588830833596715,
+            "median_log2_paths": 6.0,
+            "num_boundaries": 16
+          },
+          {
+            "depth": 3,
+            "hadamards": 12,
+            "paths_per_input": 4096,
+            "median_c2": 6.931471805599453,
+            "mean_c2": 6.931471805599453,
+            "max_c2": 6.931471805599453,
+            "median_log2_paths": 10.0,
+            "num_boundaries": 16
+          },
+          {
+            "depth": 4,
+            "hadamards": 16,
+            "paths_per_input": 65536,
+            "median_c2": 9.704060527839234,
+            "mean_c2": 9.704060527839234,
+            "max_c2": 9.704060527839234,
+            "median_log2_paths": 14.0,
+            "num_boundaries": 16
+          },
+          {
+            "depth": 5,
+            "hadamards": 20,
+            "paths_per_input": 1048576,
+            "median_c2": 12.476649250079015,
+            "mean_c2": 12.476649250079015,
+            "max_c2": 12.476649250079015,
+            "median_log2_paths": 18.0,
+            "num_boundaries": 16
+          }
+        ],
+        "median_c2_fit": {
+          "slope": 2.772588722239781,
+          "intercept": -1.386294361119896,
+          "r2": 1.0
+        },
+        "operator_magic_probe": 0.0
+      },
+      "3": {
+        "rows": [
+          {
+            "depth": 1,
+            "hadamards": 6,
+            "paths_per_input": 64,
+            "median_c2": 2.0794415416798357,
+            "mean_c2": 2.0794415416798357,
+            "max_c2": 2.0794415416798357,
+            "median_log2_paths": 3.0,
+            "num_boundaries": 64
+          },
+          {
+            "depth": 2,
+            "hadamards": 12,
+            "paths_per_input": 4096,
+            "median_c2": 6.238324625039508,
+            "mean_c2": 6.238324625039509,
+            "max_c2": 6.238324625039508,
+            "median_log2_paths": 9.0,
+            "num_boundaries": 64
+          },
+          {
+            "depth": 3,
+            "hadamards": 18,
+            "paths_per_input": 262144,
+            "median_c2": 10.39720770839918,
+            "mean_c2": 10.39720770839918,
+            "max_c2": 10.39720770839918,
+            "median_log2_paths": 15.0,
+            "num_boundaries": 64
+          }
+        ],
+        "median_c2_fit": {
+          "slope": 4.1588830833596715,
+          "intercept": -2.0794415416798326,
+          "r2": 1.0
+        },
+        "operator_magic_probe": 0.0
+      },
+      "4": {
+        "rows": [
+          {
+            "depth": 1,
+            "hadamards": 8,
+            "paths_per_input": 256,
+            "median_c2": 2.772588722239781,
+            "mean_c2": 2.772588722239781,
+            "max_c2": 2.772588722239781,
+            "median_log2_paths": 4.0,
+            "num_boundaries": 256
+          },
+          {
+            "depth": 2,
+            "hadamards": 16,
+            "paths_per_input": 65536,
+            "median_c2": 8.317766166719343,
+            "mean_c2": 8.317766166719341,
+            "max_c2": 8.317766166719343,
+            "median_log2_paths": 12.0,
+            "num_boundaries": 256
+          }
+        ],
+        "median_c2_fit": {
+          "slope": 5.5451774444795605,
+          "intercept": -2.7725887222397803,
+          "r2": 1.0
+        },
+        "operator_magic_probe": null
+      }
+    }
+  },
+  "brickwork_clifford": {
+    "family": "brickwork_clifford",
+    "by_n": {
+      "1": {
+        "rows": [
+          {
+            "depth": 1,
+            "hadamards": 2,
+            "paths_per_input": 4,
+            "median_c2": 0.6931471805599453,
+            "mean_c2": 0.6931471805599453,
+            "max_c2": 0.6931471805599453,
+            "median_log2_paths": 1.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 2,
+            "hadamards": 4,
+            "paths_per_input": 16,
+            "median_c2": 2.0794415416798357,
+            "mean_c2": 2.0794415416798357,
+            "max_c2": 2.0794415416798357,
+            "median_log2_paths": 3.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 3,
+            "hadamards": 6,
+            "paths_per_input": 64,
+            "median_c2": 3.4657359027997265,
+            "mean_c2": 3.4657359027997265,
+            "max_c2": 3.4657359027997265,
+            "median_log2_paths": 5.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 4,
+            "hadamards": 8,
+            "paths_per_input": 256,
+            "median_c2": 4.852030263919617,
+            "mean_c2": 4.852030263919617,
+            "max_c2": 4.852030263919617,
+            "median_log2_paths": 7.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 5,
+            "hadamards": 10,
+            "paths_per_input": 1024,
+            "median_c2": 6.238324625039508,
+            "mean_c2": 6.238324625039508,
+            "max_c2": 6.238324625039508,
+            "median_log2_paths": 9.0,
+            "num_boundaries": 4
+          },
+          {
+            "depth": 6,
+            "hadamards": 12,
+            "paths_per_input": 4096,
+            "median_c2": 7.6246189861593985,
+            "mean_c2": 7.6246189861593985,
+            "max_c2": 7.6246189861593985,
+            "median_log2_paths": 11.0,
+            "num_boundaries": 4
+          }
+        ],
+        "median_c2_fit": {
+          "slope": 1.3862943611198906,
+          "intercept": -0.6931471805599415,
+          "r2": 1.0
+        },
+        "operator_magic_probe": 0.0
+      },
+      "2": {
+        "rows": [
+          {
+            "depth": 1,
+            "hadamards": 4,
+            "paths_per_input": 16,
+            "median_c2": 1.3862943611198906,
+            "mean_c2": 1.3862943611198906,
+            "max_c2": 1.3862943611198906,
+            "median_log2_paths": 2.0,
+            "num_boundaries": 16
+          },
+          {
+            "depth": 2,
+            "hadamards": 8,
+            "paths_per_input": 256,
+            "median_c2": 4.1588830833596715,
+            "mean_c2": 4.1588830833596715,
+            "max_c2": 4.1588830833596715,
+            "median_log2_paths": 6.0,
+            "num_boundaries": 16
+          },
+          {
+            "depth": 3,
+            "hadamards": 12,
+            "paths_per_input": 4096,
+            "median_c2": 6.931471805599453,
+            "mean_c2": 6.931471805599453,
+            "max_c2": 6.931471805599453,
+            "median_log2_paths": 10.0,
+            "num_boundaries": 16
+          },
+          {
+            "depth": 4,
+            "hadamards": 16,
+            "paths_per_input": 65536,
+            "median_c2": 9.704060527839234,
+            "mean_c2": 9.704060527839234,
+            "max_c2": 9.704060527839234,
+            "median_log2_paths": 14.0,
+            "num_boundaries": 16
+          },
+          {
+            "depth": 5,
+            "hadamards": 20,
+            "paths_per_input": 1048576,
+            "median_c2": 12.476649250079015,
+            "mean_c2": 12.476649250079015,
+            "max_c2": 12.476649250079015,
+            "median_log2_paths": 18.0,
+            "num_boundaries": 16
+          }
+        ],
+        "median_c2_fit": {
+          "slope": 2.772588722239781,
+          "intercept": -1.386294361119896,
+          "r2": 1.0
+        },
+        "operator_magic_probe": 0.0
+      },
+      "3": {
+        "rows": [
+          {
+            "depth": 1,
+            "hadamards": 6,
+            "paths_per_input": 64,
+            "median_c2": 2.0794415416798357,
+            "mean_c2": 2.0794415416798357,
+            "max_c2": 2.0794415416798357,
+            "median_log2_paths": 3.0,
+            "num_boundaries": 64
+          },
+          {
+            "depth": 2,
+            "hadamards": 12,
+            "paths_per_input": 4096,
+            "median_c2": 6.238324625039508,
+            "mean_c2": 6.238324625039509,
+            "max_c2": 6.238324625039508,
+            "median_log2_paths": 9.0,
+            "num_boundaries": 64
+          },
+          {
+            "depth": 3,
+            "hadamards": 18,
+            "paths_per_input": 262144,
+            "median_c2": 10.39720770839918,
+            "mean_c2": 10.39720770839918,
+            "max_c2": 10.39720770839918,
+            "median_log2_paths": 15.0,
+            "num_boundaries": 64
+          }
+        ],
+        "median_c2_fit": {
+          "slope": 4.1588830833596715,
+          "intercept": -2.0794415416798326,
+          "r2": 1.0
+        },
+        "operator_magic_probe": 0.0
+      },
+      "4": {
+        "rows": [
+          {
+            "depth": 1,
+            "hadamards": 8,
+            "paths_per_input": 256,
+            "median_c2": 2.772588722239781,
+            "mean_c2": 2.772588722239781,
+            "max_c2": 2.772588722239781,
+            "median_log2_paths": 4.0,
+            "num_boundaries": 256
+          },
+          {
+            "depth": 2,
+            "hadamards": 16,
+            "paths_per_input": 65536,
+            "median_c2": 8.317766166719343,
+            "mean_c2": 8.317766166719341,
+            "max_c2": 8.317766166719343,
+            "median_log2_paths": 12.0,
+            "num_boundaries": 256
+          }
+        ],
+        "median_c2_fit": {
+          "slope": 5.5451774444795605,
+          "intercept": -2.7725887222397803,
+          "r2": 1.0
+        },
+        "operator_magic_probe": null
+      }
+    }
+  }
+}

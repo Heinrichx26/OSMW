@@ -1,0 +1,99 @@
+{
+  "expected_t_magic_log_4_over_3": 0.28768207245178085,
+  "checks": [
+    {
+      "name": "H-only operator magic",
+      "value": 0.0,
+      "expected": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T operator magic",
+      "value": 0.28768207245177946,
+      "expected": 0.28768207245178085,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "H+T+CNOT operator magic",
+      "value": 0.28768207245178035,
+      "expected": 0.28768207245178085,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T path C2",
+      "value": 0.0,
+      "expected": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "simple Clifford path growth",
+      "value": 1.0,
+      "expected": ">= 0.98",
+      "tolerance": null,
+      "passed": true
+    },
+    {
+      "name": "simple Clifford family magic",
+      "value": 0.0,
+      "expected": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    }
+  ],
+  "path_summaries": {
+    "T": {
+      "median_c2": 0.0,
+      "mean_c2": 0.0,
+      "max_c2": 0.0,
+      "median_cancellation": 0.0,
+      "mean_cancellation": 0.0,
+      "max_cancellation": 0.0,
+      "num_boundaries": 2,
+      "paths_per_input": 1
+    },
+    "simple_clifford_n2": {
+      "depths": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "median_c2": [
+        1.3862943611198906,
+        4.1588830833596715,
+        6.931471805599453,
+        9.704060527839234
+      ],
+      "fit": {
+        "slope": 2.772588722239781,
+        "intercept": -1.3862943611198877,
+        "r2": 1.0
+      },
+      "operator_magic_depth_4": 0.0
+    },
+    "brickwork_clifford_n2": {
+      "depths": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "median_c2": [
+        1.3862943611198906,
+        4.1588830833596715,
+        6.931471805599453,
+        9.704060527839234
+      ],
+      "fit": {
+        "slope": 2.772588722239781,
+        "intercept": -1.3862943611198877,
+        "r2": 1.0
+      },
+      "operator_magic_depth_4": 0.0
+    }
+  }
+}

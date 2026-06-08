@@ -1,0 +1,25 @@
+{
+  "case": "local_window_scaling_quick_validation",
+  "checks": [
+    {
+      "case": "exact_ptm_vs_sparse_window_xy",
+      "observed": 1.2501621867953114,
+      "expected": 1.2501621867953108,
+      "abs_error": 6.661338147750939e-16,
+      "passed": true
+    },
+    {
+      "case": "local_window_retained_support_below_all_pauli",
+      "observed_ratio": 0.18614718614718614,
+      "passed": true
+    },
+    {
+      "case": "no_sparse_cap",
+      "capped_labels": 0,
+      "passed": true
+    }
+  ],
+  "max_abs_error": 6.661338147750939e-16,
+  "local_window_ratio": 0.18614718614718614,
+  "passed": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "smoke": false,
+  "num_rows": 8,
+  "max_abs_error": 3.469446951953614e-18,
+  "min_slack": 1.0
+}

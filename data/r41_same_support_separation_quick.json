@@ -1,0 +1,7 @@
+{
+  "n_qubits": 4,
+  "eta": 0.9,
+  "k_eta_ratio": 15.0,
+  "collision_scale_ratio": 7.774193548387097,
+  "passed": true
+}

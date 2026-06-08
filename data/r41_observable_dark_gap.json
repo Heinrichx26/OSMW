@@ -1,0 +1,327 @@
+{
+  "validation": {
+    "case": "observable_dark_gap_from_large_n_data",
+    "checks": [
+      {
+        "case": "largest_n_at_least_96",
+        "observed": 96,
+        "passed": true
+      },
+      {
+        "case": "local_z_dark_gap_density_large",
+        "observed": 0.5782703705603637,
+        "passed": true
+      },
+      {
+        "case": "local_z_visible_density_small",
+        "observed": 0.023312980240924954,
+        "passed": true
+      },
+      {
+        "case": "local_z_dark_gap_linear",
+        "observed": 0.9999528235817158,
+        "passed": true
+      },
+      {
+        "case": "local_transverse_dark_gap_density_large",
+        "observed": 0.5689456481269918,
+        "passed": true
+      },
+      {
+        "case": "local_transverse_visible_density_small",
+        "observed": 0.03263770267429682,
+        "passed": true
+      },
+      {
+        "case": "local_transverse_dark_gap_linear",
+        "observed": 0.9999333048537348,
+        "passed": true
+      },
+      {
+        "case": "hamiltonian_terms_dark_gap_density_large",
+        "observed": 0.5650586662482106,
+        "passed": true
+      },
+      {
+        "case": "hamiltonian_terms_visible_density_small",
+        "observed": 0.03652468455307817,
+        "passed": true
+      },
+      {
+        "case": "hamiltonian_terms_dark_gap_linear",
+        "observed": 0.9998814315626016,
+        "passed": true
+      }
+    ],
+    "passed": true
+  },
+  "summary": {
+    "largest_n": 96,
+    "all_pauli_density_log10": 0.6020599913279624,
+    "tasks": {
+      "local_z": {
+        "dark_gap_slope_log10_per_qubit": 0.5909438595578168,
+        "dark_gap_fit_r2": 0.9999528235817158,
+        "visible_slope_log10_per_qubit": 0.01111613177014553,
+        "visible_fit_r2": 0.8823549026195338,
+        "dark_gap_density_at_largest_n": 0.5782703705603637,
+        "visible_density_at_largest_n": 0.023312980240924954,
+        "dark_fraction_at_largest_n": 0.9612472981343768,
+        "k90_per_term_at_largest_n": 1.8020833333333333
+      },
+      "local_transverse": {
+        "dark_gap_slope_log10_per_qubit": 0.5900491723434195,
+        "dark_gap_fit_r2": 0.9999333048537348,
+        "visible_slope_log10_per_qubit": 0.012010818984542797,
+        "visible_fit_r2": 0.8613461096066727,
+        "dark_gap_density_at_largest_n": 0.5689456481269918,
+        "visible_density_at_largest_n": 0.03263770267429682,
+        "dark_fraction_at_largest_n": 0.9457469980995575,
+        "k90_per_term_at_largest_n": 7.078125
+      },
+      "hamiltonian_terms": {
+        "dark_gap_slope_log10_per_qubit": 0.5884604801187763,
+        "dark_gap_fit_r2": 0.9998814315626016,
+        "visible_slope_log10_per_qubit": 0.013599511209186094,
+        "visible_fit_r2": 0.8183115640202918,
+        "dark_gap_density_at_largest_n": 0.5650586662482106,
+        "visible_density_at_largest_n": 0.03652468455307817,
+        "dark_fraction_at_largest_n": 0.9392857456835724,
+        "k90_per_term_at_largest_n": 11.259649122807017
+      }
+    }
+  },
+  "rows": [
+    {
+      "n_qubits": 8,
+      "task": "local_z",
+      "log10_k90_all": 4.770722440063024,
+      "log10_k90_task": 1.1760912590556813,
+      "dark_gap_log10": 3.594631181007343,
+      "dark_gap_density": 0.4493288976259179,
+      "visible_density": 0.14701140738196017,
+      "dark_fraction_of_all": 0.7534773246963107,
+      "k90_per_term": 1.875
+    },
+    {
+      "n_qubits": 8,
+      "task": "local_transverse",
+      "log10_k90_all": 4.770722440063024,
+      "log10_k90_task": 1.9637878273455553,
+      "dark_gap_log10": 2.806934612717469,
+      "dark_gap_density": 0.3508668265896836,
+      "visible_density": 0.24547347841819442,
+      "dark_fraction_of_all": 0.5883667825958006,
+      "k90_per_term": 5.75
+    },
+    {
+      "n_qubits": 8,
+      "task": "hamiltonian_terms",
+      "log10_k90_all": 4.770722440063024,
+      "log10_k90_task": 2.1367205671564067,
+      "dark_gap_log10": 2.6340018729066177,
+      "dark_gap_density": 0.3292502341133272,
+      "visible_density": 0.26709007089455084,
+      "dark_fraction_of_all": 0.5521180295015907,
+      "k90_per_term": 6.523809523809524
+    },
+    {
+      "n_qubits": 16,
+      "task": "local_z",
+      "log10_k90_all": 9.587202370686724,
+      "log10_k90_task": 1.462397997898956,
+      "dark_gap_log10": 8.124804372787768,
+      "dark_gap_density": 0.5078002732992355,
+      "visible_density": 0.09139987486868476,
+      "dark_fraction_of_all": 0.8474635309284491,
+      "k90_per_term": 1.8125
+    },
+    {
+      "n_qubits": 16,
+      "task": "local_transverse",
+      "log10_k90_all": 9.587202370686724,
+      "log10_k90_task": 2.315970345456918,
+      "dark_gap_log10": 7.271232025229805,
+      "dark_gap_density": 0.45445200157686283,
+      "visible_density": 0.14474814659105736,
+      "dark_fraction_of_all": 0.7584310567451777,
+      "k90_per_term": 6.46875
+    },
+    {
+      "n_qubits": 16,
+      "task": "hamiltonian_terms",
+      "log10_k90_all": 9.587202370686724,
+      "log10_k90_task": 2.6201360549737576,
+      "dark_gap_log10": 6.967066315712966,
+      "dark_gap_density": 0.4354416447320604,
+      "visible_density": 0.16375850343585985,
+      "dark_fraction_of_all": 0.7267048348760287,
+      "k90_per_term": 9.266666666666667
+    },
+    {
+      "n_qubits": 24,
+      "task": "local_z",
+      "log10_k90_all": 14.403682301310422,
+      "log10_k90_task": 1.6434526764861874,
+      "dark_gap_log10": 12.760229624824234,
+      "dark_gap_density": 0.5316762343676764,
+      "visible_density": 0.06847719485359115,
+      "dark_fraction_of_all": 0.885900518901568,
+      "k90_per_term": 1.8333333333333333
+    },
+    {
+      "n_qubits": 24,
+      "task": "local_transverse",
+      "log10_k90_all": 14.403682301310422,
+      "log10_k90_task": 2.507855871695831,
+      "dark_gap_log10": 11.89582642961459,
+      "dark_gap_density": 0.4956594345672746,
+      "visible_density": 0.10449399465399295,
+      "dark_fraction_of_all": 0.8258878653920553,
+      "k90_per_term": 6.708333333333333
+    },
+    {
+      "n_qubits": 24,
+      "task": "hamiltonian_terms",
+      "log10_k90_all": 14.403682301310422,
+      "log10_k90_task": 2.842609239610562,
+      "dark_gap_log10": 11.56107306169986,
+      "dark_gap_density": 0.4817113775708275,
+      "visible_density": 0.11844205165044008,
+      "dark_fraction_of_all": 0.8026470467658158,
+      "k90_per_term": 10.08695652173913
+    },
+    {
+      "n_qubits": 32,
+      "task": "local_z",
+      "log10_k90_all": 19.220162231934122,
+      "log10_k90_task": 1.7634279935629373,
+      "dark_gap_log10": 17.456734238371183,
+      "dark_gap_density": 0.5455229449490995,
+      "visible_density": 0.05510712479884179,
+      "dark_fraction_of_all": 0.9082511389715004,
+      "k90_per_term": 1.8125
+    },
+    {
+      "n_qubits": 32,
+      "task": "local_transverse",
+      "log10_k90_all": 19.220162231934122,
+      "log10_k90_task": 2.640481436970422,
+      "dark_gap_log10": 16.5796807949637,
+      "dark_gap_density": 0.5181150248426156,
+      "visible_density": 0.08251504490532569,
+      "dark_fraction_of_all": 0.862619190977312,
+      "k90_per_term": 6.828125
+    },
+    {
+      "n_qubits": 32,
+      "task": "hamiltonian_terms",
+      "log10_k90_all": 19.220162231934122,
+      "log10_k90_task": 2.989004615698537,
+      "dark_gap_log10": 16.231157616235585,
+      "dark_gap_density": 0.507223675507362,
+      "visible_density": 0.09340639424057928,
+      "dark_fraction_of_all": 0.8444859840604085,
+      "k90_per_term": 10.483870967741936
+    },
+    {
+      "n_qubits": 48,
+      "task": "local_z",
+      "log10_k90_all": 28.85312209318152,
+      "log10_k90_task": 1.9395192526186185,
+      "dark_gap_log10": 26.9136028405629,
+      "dark_gap_density": 0.5607000591783937,
+      "visible_density": 0.04040665109622122,
+      "dark_fraction_of_all": 0.9327795707391762,
+      "k90_per_term": 1.8125
+    },
+    {
+      "n_qubits": 48,
+      "task": "local_transverse",
+      "log10_k90_all": 28.85312209318152,
+      "log10_k90_task": 2.824776462475546,
+      "dark_gap_log10": 26.02834563070597,
+      "dark_gap_density": 0.5422572006397077,
+      "visible_density": 0.058849509634907204,
+      "dark_fraction_of_all": 0.9020980657360789,
+      "k90_per_term": 6.958333333333333
+    },
+    {
+      "n_qubits": 48,
+      "task": "hamiltonian_terms",
+      "log10_k90_all": 28.85312209318152,
+      "log10_k90_task": 3.185542154854375,
+      "dark_gap_log10": 25.667579938327144,
+      "dark_gap_density": 0.5347412487151488,
+      "visible_density": 0.06636546155946614,
+      "dark_fraction_of_all": 0.8895945421585011,
+      "k90_per_term": 10.872340425531915
+    },
+    {
+      "n_qubits": 64,
+      "task": "local_z",
+      "log10_k90_all": 38.48608195442892,
+      "log10_k90_task": 2.0644579892269186,
+      "dark_gap_log10": 36.421623965202,
+      "dark_gap_density": 0.5690878744562813,
+      "visible_density": 0.0322571560816706,
+      "dark_fraction_of_all": 0.9463583226873697,
+      "k90_per_term": 1.8125
+    },
+    {
+      "n_qubits": 64,
+      "task": "local_transverse",
+      "log10_k90_all": 38.48608195442892,
+      "log10_k90_task": 2.9532763366673045,
+      "dark_gap_log10": 35.53280561776161,
+      "dark_gap_density": 0.5552000877775252,
+      "visible_density": 0.04614494276042663,
+      "dark_fraction_of_all": 0.9232637829913614,
+      "k90_per_term": 7.015625
+    },
+    {
+      "n_qubits": 64,
+      "task": "hamiltonian_terms",
+      "log10_k90_all": 38.48608195442892,
+      "log10_k90_task": 3.3205616801952367,
+      "dark_gap_log10": 35.165520274233685,
+      "dark_gap_density": 0.5494612542849013,
+      "visible_density": 0.05188377625305057,
+      "dark_fraction_of_all": 0.9137204539519745,
+      "k90_per_term": 11.068783068783068
+    },
+    {
+      "n_qubits": 96,
+      "task": "local_z",
+      "log10_k90_all": 57.75200167692371,
+      "log10_k90_task": 2.2380461031287955,
+      "dark_gap_log10": 55.51395557379492,
+      "dark_gap_density": 0.5782703705603637,
+      "visible_density": 0.023312980240924954,
+      "dark_fraction_of_all": 0.9612472981343768,
+      "k90_per_term": 1.8020833333333333
+    },
+    {
+      "n_qubits": 96,
+      "task": "local_transverse",
+      "log10_k90_all": 57.75200167692371,
+      "log10_k90_task": 3.1332194567324945,
+      "dark_gap_log10": 54.618782220191214,
+      "dark_gap_density": 0.5689456481269918,
+      "visible_density": 0.03263770267429682,
+      "dark_fraction_of_all": 0.9457469980995575,
+      "k90_per_term": 7.078125
+    },
+    {
+      "n_qubits": 96,
+      "task": "hamiltonian_terms",
+      "log10_k90_all": 57.75200167692371,
+      "log10_k90_task": 3.506369717095504,
+      "dark_gap_log10": 54.24563195982821,
+      "dark_gap_density": 0.5650586662482106,
+      "visible_density": 0.03652468455307817,
+      "dark_fraction_of_all": 0.9392857456835724,
+      "k90_per_term": 11.259649122807017
+    }
+  ]
+}

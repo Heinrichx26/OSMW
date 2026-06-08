@@ -1,0 +1,5 @@
+numpy>=1.26
+matplotlib>=3.8
+reportlab>=4.0
+qiskit>=1.0
+mqt.bench>=1.1

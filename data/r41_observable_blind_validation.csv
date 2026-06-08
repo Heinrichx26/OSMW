@@ -1,0 +1,6 @@
+source,groups,median_same_channel_ratio,max_same_channel_ratio,median_optimal_blind_regret,max_optimal_blind_regret,decision_object
+analytic_T_product_pair,4,1.266637e+14,7.130535e+28,7.960075e+06,2.670306e+14,K_0.9 for Z_1 and X_1...X_n on identical T^n channel
+fixed_depth_clifford_dressed_T,7,2.862426e+17,3.265544e+55,5.350164e+08,5.714494e+27,"local Z, local X/Y, Hamiltonian, and all-Pauli tasks on one channel"
+random_clifford_T_grid,180,18.3712,229.947,4.28615,15.164,same-circuit random-grid task families
+kicked_spin_chain,10,24.5277,100.542,4.94109,10.027,same-dynamics Floquet task families
+MQT_Bench_public_circuits,28,20.5,543,4.52769,23.3024,public circuits with task family fixed after the circuit

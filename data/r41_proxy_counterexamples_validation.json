@@ -1,0 +1,42 @@
+{
+  "checks": [
+    {
+      "case": "matched_operator_magic_high",
+      "observed": 0.5753641449035618,
+      "expected": 0.5753641449035617,
+      "abs_error": 1.1102230246251565e-16
+    },
+    {
+      "case": "matched_operator_magic_low",
+      "observed": 0.5753641449035618,
+      "expected": 0.5753641449035617,
+      "abs_error": 1.1102230246251565e-16
+    },
+    {
+      "case": "matched_gate_list_nonclifford_count",
+      "observed": 4,
+      "expected": 4,
+      "abs_error": 0
+    },
+    {
+      "case": "matched_task_active_t_count",
+      "observed": 2,
+      "expected": 2,
+      "abs_error": 0
+    },
+    {
+      "case": "collapse_k90",
+      "observed": 1,
+      "expected": 1,
+      "abs_error": 0
+    },
+    {
+      "case": "spread_k90",
+      "observed": 3,
+      "expected": 3,
+      "abs_error": 0
+    }
+  ],
+  "max_abs_error": 1.1102230246251565e-16,
+  "passed": true
+}

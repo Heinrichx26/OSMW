@@ -1,0 +1,25 @@
+{
+  "case": "two_dimensional_local_window_quick_validation",
+  "checks": [
+    {
+      "case": "exact_ptm_vs_sparse_l2_plaquette_xy",
+      "observed": 2.772588722239783,
+      "expected": 2.772588722239781,
+      "abs_error": 1.7763568394002505e-15,
+      "passed": true
+    },
+    {
+      "case": "l3_plaquette_xy_below_all_pauli",
+      "observed_ratio": 0.0005722036197177129,
+      "passed": true
+    },
+    {
+      "case": "l3_no_sparse_cap",
+      "capped_labels": 0,
+      "passed": true
+    }
+  ],
+  "max_abs_error": 1.7763568394002505e-15,
+  "plaquette_ratio": 0.0005722036197177129,
+  "passed": true
+}

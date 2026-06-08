@@ -1,0 +1,8 @@
+{
+  "case": "random_hamiltonian_validation",
+  "n_qubits": 6,
+  "labels_used": 15,
+  "max_relative_rmse": 0.06363070951001659,
+  "monotone_retained_terms": true,
+  "passed": true
+}

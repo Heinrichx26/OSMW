@@ -1,0 +1,9 @@
+check,value,reference,abs_error,slack
+mixture_collision_affine,0.5471874999999999,0.5471874999999999,0.0,
+mixture_entropy_logsum,0.6029637565019662,0.6029637565019662,0.0,
+mixture_terminal_marginal_linf,3.469446951953614e-18,0.0,3.469446951953614e-18,
+mixture_smooth_support_union,26.0,28.0,,2.0
+product_collision_multiplicative,0.49999999999999983,0.49999999999999983,0.0,
+product_entropy_additive,0.6931471805599456,0.6931471805599456,0.0,
+product_terminal_marginal_linf,0.0,0.0,0.0,
+product_smooth_support_bound,13.0,14.0,,1.0

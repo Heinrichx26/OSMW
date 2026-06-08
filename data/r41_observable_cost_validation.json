@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "case": "T_tensor_local_z",
+      "observed": -0.0,
+      "expected": 0.0,
+      "abs_error": 0.0
+    },
+    {
+      "case": "T_tensor_local_transverse",
+      "observed": 0.6931471805599456,
+      "expected": 0.6931471805599453,
+      "abs_error": 3.3306690738754696e-16
+    },
+    {
+      "case": "T_tensor_full_transverse",
+      "observed": 2.772588722239783,
+      "expected": 2.772588722239781,
+      "abs_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "T_tensor_all_pauli",
+      "observed": 1.1507282898071238,
+      "expected": 1.1507282898071234,
+      "abs_error": 4.440892098500626e-16
+    },
+    {
+      "case": "exact_ptm_vs_sparse_all_pauli",
+      "observed": 0.575364144903562,
+      "expected": 0.575364144903564,
+      "abs_error": 1.9984014443252818e-15
+    },
+    {
+      "case": "exact_ptm_vs_sparse_local_z",
+      "observed": 0.1823215567939546,
+      "expected": 0.18232155679395712,
+      "abs_error": 2.525757381022231e-15
+    },
+    {
+      "case": "exact_ptm_vs_sparse_local_transverse",
+      "observed": 0.28768207245178107,
+      "expected": 0.2876820724517833,
+      "abs_error": 2.220446049250313e-15
+    },
+    {
+      "case": "exact_ptm_vs_sparse_tdg_sdg_x",
+      "observed": 0.5753641449035622,
+      "expected": 0.575364144903562,
+      "abs_error": 2.220446049250313e-16
+    },
+    {
+      "case": "clifford_dressed_separation",
+      "observed": 0.47000362924573574,
+      "expected": 0.47000362924573574,
+      "abs_error": 0.0
+    },
+    {
+      "case": "terminal_distribution_precompute",
+      "observed": 0.75,
+      "expected": 0.7499999999999999,
+      "abs_error": 1.1102230246251565e-16
+    },
+    {
+      "case": "commuting_kicked_ising_local_z",
+      "observed": -0.0,
+      "expected": 0.0,
+      "abs_error": 0.0
+    }
+  ],
+  "max_abs_error": 2.525757381022231e-15,
+  "passed": true
+}

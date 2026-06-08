@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Manuscript and submission materials are intentionally excluded.
+article/
+*.tex
+*.bib
+*.bbl
+*.aux
+*.log
+*cover_letter*
+*cover-letter*
+*manuscript*
+*submission*
+
+# Generated figures, local previews, and temporary files.
+results/*.pdf
+results/*.png
+results/*.pptx
+results/*.svg
+results/pdf_preview/
+*.tmp
+*.bak

@@ -1,0 +1,9 @@
+{
+  "profiles": 4,
+  "support_sizes": [
+    8
+  ],
+  "positive_weights": true,
+  "truncated_columns": 0,
+  "passed": true
+}

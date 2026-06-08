@@ -1,0 +1,9 @@
+{
+  "benchmark": "grover",
+  "n_qubits": 3,
+  "task": "local_transverse",
+  "exact": 1.3862943611198937,
+  "sparse": 1.3862943611198906,
+  "abs_error": 3.1086244689504383e-15,
+  "passed": true
+}

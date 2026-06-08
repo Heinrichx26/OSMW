@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "case": "local_z",
+      "observed": 0.0,
+      "expected": 0.0
+    },
+    {
+      "case": "local_transverse",
+      "observed": 1.0,
+      "expected": 1.0
+    },
+    {
+      "case": "hamiltonian_terms",
+      "observed": 1.3333333333333333,
+      "expected": 1.3333333333333333
+    }
+  ],
+  "max_abs_error": 0.0,
+  "passed": true
+}

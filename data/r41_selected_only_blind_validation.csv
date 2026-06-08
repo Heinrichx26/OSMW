@@ -1,0 +1,6 @@
+source,groups,median_same_channel_ratio,max_same_channel_ratio,median_optimal_blind_regret,max_optimal_blind_regret,decision_object
+fixed_depth_selected_tasks,7,16.8103,18.5491,4.10004,4.30687,"local Z, local X/Y, and Hamiltonian tasks on one channel"
+random_selected_tasks,180,4.57143,10.2812,2.13809,3.20644,same-circuit selected random-grid task families
+floquet_selected_tasks,10,2.41667,3.875,1.55451,1.9685,same-dynamics selected Floquet task families
+MQT_selected_tasks,28,7.33333,84.2,2.70801,9.17606,public circuits with selected task family fixed after the circuit
+fixed_error_selected_tasks,49,2.49513,15.9053,1.5796,3.98815,fixed-error retained terms among selected local tasks

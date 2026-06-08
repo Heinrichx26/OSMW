@@ -1,0 +1,7 @@
+source,task_rows,median_selected_input_columns,max_selected_input_columns,median_terminal_terms_per_column,max_terminal_terms_per_column,median_selected_over_all_task,truncated_selected_rows,validation_result
+fixed_depth_family_all_n,21,64,285,7.625,25.0105,2.632202e-17,0,task input columns enumerated
+fixed_depth_family_n96,3,192,285,7.875,25.0105,2.405569e-55,0,task input columns enumerated
+fixed_error_random,60,20,27,2.175,10.2222,0.191584,0,task input columns enumerated
+fixed_error_floquet,48,16,21,65.3125,2358.86,0.0596091,0,task input columns enumerated
+fixed_error_MQT_core,39,8,27,3.5,28.6296,0.622014,0,task input columns enumerated
+MQT_Bench_validation,308,6,64,3,107.125,0.127563,0,task input columns enumerated
